@@ -1,6 +1,23 @@
-# 🎨 Technology Living Library — Architecture & Visual Diagram Repository
+# 🎨 Technology Living Library — Architecture, Docs & Visual Reference Assets
 
-This repository (`edu_images`) hosts all **1,992 technical architecture diagrams, flowcharts, and visual mental models** for the **Ultimate Technology Living Library**.
+This repository (`edu_images`) hosts the **complete technical reference assets** for the **Ultimate Technology Living Library**:
+1. **Architecture Diagrams & Visuals** (`*.png` / 2,034 files): Minimalist 16:9 presentation sketchnotes.
+2. **Markdown Knowledge Base** (`docs/` / 1,993 files): Detailed Notion-style Markdown documents for every topic.
+
+---
+
+## 📁 Repository Structure
+
+```text
+edu_images/
+├── docs/                        # All 1,993 Markdown documents (.md)
+│   └── <section>__<group>__<topic>.md
+├── *.png                        # All 1,992 mapped architecture diagrams & visuals
+│   └── <section>__<group>__<topic>.png
+├── placeholder.png              # Default template
+├── placeholder.svg              # Vector blueprint template
+└── README.md                    # Guidelines and benchmark specifications
+```
 
 ---
 
@@ -8,11 +25,12 @@ This repository (`edu_images`) hosts all **1,992 technical architecture diagrams
 
 > [!CAUTION]
 > ### STRICT INVARIANT: DO NOT RENAME FILES
-> - **Every single image in this repository is directly mapped** by exact filename in `index.html` and `data/image_manifest.json` following the pattern:  
->   `images/<section>__<group>__<topic>.png`
+> - **Every single image and markdown document in this repository is directly mapped** by exact filename in `index.html` and `data/image_manifest.json` following the pattern:  
+>   - Diagram: `<section>__<group>__<topic>.png`
+>   - Document: `docs/<section>__<group>__<topic>.md`
 > - **DO NOT change, rename, or prefix any file name.**
 > - **DO NOT create new file names.**
-> - **ONLY replace the existing file in-place** while preserving its exact original filename and `.png` extension.
+> - **ONLY replace existing files in-place** while preserving their exact original filename.
 
 ---
 
