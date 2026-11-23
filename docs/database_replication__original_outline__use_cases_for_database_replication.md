@@ -1,13 +1,11 @@
-> **Core Definition:**  
-> Replication supports high availability, read scaling, disaster recovery, reporting, data locality, and zero-downtime migration.
+> **Replication supports high availability, read scaling, disaster recovery, reporting, data locality, and zero-downtime migration.**
 
 ---
 
 ## 1. Architectural Overview & Mental Model
 
-**Use Cases for Database Replication** serves as a foundational component within *Original outline* in the broader **Database Replication** ecosystem. Replication supports high availability, read scaling, disaster recovery, reporting, data locality, and zero-downtime migration.
+Replication supports high availability, read scaling, disaster recovery, reporting, data locality, and zero-downtime migration.
 
-At an architectural level, it abstracts underlying complexity to provide deterministic behavior, clear separation of concerns, and stable runtime contracts across distributed or multi-threaded environments.
 
 ## 2. Execution Mechanics & Runtime Flow
 

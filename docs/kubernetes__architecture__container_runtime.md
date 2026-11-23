@@ -1,13 +1,11 @@
-> **Core Definition:**  
-> The container runtime pulls images and creates, starts, stops, and removes containers on Kubernetes nodes.
+> **The container runtime pulls images and creates, starts, stops, and removes containers on Kubernetes nodes.**
 
 ---
 
 ## 1. Architectural Overview & Mental Model
 
-**Container runtime** serves as a foundational component within *Architecture* in the broader **Kubernetes** ecosystem. The container runtime pulls images and creates, starts, stops, and removes containers on Kubernetes nodes.
+The container runtime pulls images and creates, starts, stops, and removes containers on Kubernetes nodes.
 
-At an architectural level, it abstracts underlying complexity to provide deterministic behavior, clear separation of concerns, and stable runtime contracts across distributed or multi-threaded environments.
 
 ## 2. Execution Mechanics & Runtime Flow
 

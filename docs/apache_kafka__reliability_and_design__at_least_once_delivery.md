@@ -1,13 +1,11 @@
-> **Core Definition:**  
-> At-least-once delivery avoids loss by committing after processing, but retries or crashes can produce duplicates.
+> **At-least-once delivery avoids loss by committing after processing, but retries or crashes can produce duplicates.**
 
 ---
 
 ## 1. Architectural Overview & Mental Model
 
-**At-least-once delivery** serves as a foundational component within *Reliability and Design* in the broader **Apache Kafka** ecosystem. At-least-once delivery avoids loss by committing after processing, but retries or crashes can produce duplicates.
+At-least-once delivery avoids loss by committing after processing, but retries or crashes can produce duplicates.
 
-At an architectural level, it abstracts underlying complexity to provide deterministic behavior, clear separation of concerns, and stable runtime contracts across distributed or multi-threaded environments.
 
 ## 2. Execution Mechanics & Runtime Flow
 

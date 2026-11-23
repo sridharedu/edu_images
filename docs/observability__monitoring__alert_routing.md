@@ -1,13 +1,11 @@
-> **Core Definition:**  
-> Alert routing sends notifications to the correct team and channel based on severity, service, ownership, and time.
+> **Alert routing sends notifications to the correct team and channel based on severity, service, ownership, and time.**
 
 ---
 
 ## 1. Architectural Overview & Mental Model
 
-**Alert routing** serves as a foundational component within *Monitoring* in the broader **Observability** ecosystem. Alert routing sends notifications to the correct team and channel based on severity, service, ownership, and time.
+Alert routing sends notifications to the correct team and channel based on severity, service, ownership, and time.
 
-At an architectural level, it abstracts underlying complexity to provide deterministic behavior, clear separation of concerns, and stable runtime contracts across distributed or multi-threaded environments.
 
 ## 2. Execution Mechanics & Runtime Flow
 

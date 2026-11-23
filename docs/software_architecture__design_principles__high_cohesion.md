@@ -1,13 +1,11 @@
-> **Core Definition:**  
-> High cohesion means a module contains closely related responsibilities that belong together.
+> **High cohesion means a module contains closely related responsibilities that belong together.**
 
 ---
 
 ## 1. Architectural Overview & Mental Model
 
-**High cohesion** serves as a foundational component within *Design Principles* in the broader **Software Architecture** ecosystem. High cohesion means a module contains closely related responsibilities that belong together.
+High cohesion means a module contains closely related responsibilities that belong together.
 
-At an architectural level, it abstracts underlying complexity to provide deterministic behavior, clear separation of concerns, and stable runtime contracts across distributed or multi-threaded environments.
 
 ## 2. Execution Mechanics & Runtime Flow
 

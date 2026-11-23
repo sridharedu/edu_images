@@ -1,13 +1,11 @@
-> **Core Definition:**  
-> Pitfalls include shared mutable state, blocking calls, small workloads, ordering overhead, common-pool contention, and non-associative reductions.
+> **Pitfalls include shared mutable state, blocking calls, small workloads, ordering overhead, common-pool contention, and non-associative reductions.**
 
 ---
 
 ## 1. Architectural Overview & Mental Model
 
-**Parallel stream pitfalls** serves as a foundational component within *Parallelism* in the broader **Java Streams** ecosystem. Pitfalls include shared mutable state, blocking calls, small workloads, ordering overhead, common-pool contention, and non-associative reductions.
+Pitfalls include shared mutable state, blocking calls, small workloads, ordering overhead, common-pool contention, and non-associative reductions.
 
-At an architectural level, it abstracts underlying complexity to provide deterministic behavior, clear separation of concerns, and stable runtime contracts across distributed or multi-threaded environments.
 
 ## 2. Execution Mechanics & Runtime Flow
 

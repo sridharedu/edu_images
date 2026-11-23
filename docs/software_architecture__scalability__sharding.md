@@ -1,13 +1,11 @@
-> **Core Definition:**  
-> Sharding distributes data partitions across separate database nodes, usually according to a shard key.
+> **Sharding distributes data partitions across separate database nodes, usually according to a shard key.**
 
 ---
 
 ## 1. Architectural Overview & Mental Model
 
-**Sharding** serves as a foundational component within *Scalability* in the broader **Software Architecture** ecosystem. Sharding distributes data partitions across separate database nodes, usually according to a shard key.
+Sharding distributes data partitions across separate database nodes, usually according to a shard key.
 
-At an architectural level, it abstracts underlying complexity to provide deterministic behavior, clear separation of concerns, and stable runtime contracts across distributed or multi-threaded environments.
 
 ## 2. Execution Mechanics & Runtime Flow
 

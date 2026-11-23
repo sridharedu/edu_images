@@ -1,13 +1,11 @@
-> **Core Definition:**  
-> Unit of Work tracks changes to multiple objects and commits them as one coordinated transaction.
+> **Unit of Work tracks changes to multiple objects and commits them as one coordinated transaction.**
 
 ---
 
 ## 1. Architectural Overview & Mental Model
 
-**Unit of Work** serves as a foundational component within *Enterprise Patterns* in the broader **Design Patterns** ecosystem. Unit of Work tracks changes to multiple objects and commits them as one coordinated transaction.
+Unit of Work tracks changes to multiple objects and commits them as one coordinated transaction.
 
-At an architectural level, it abstracts underlying complexity to provide deterministic behavior, clear separation of concerns, and stable runtime contracts across distributed or multi-threaded environments.
 
 ## 2. Execution Mechanics & Runtime Flow
 

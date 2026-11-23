@@ -1,13 +1,11 @@
-> **Core Definition:**  
-> BiFunction<T,U,R> accepts two inputs and produces one result. It generalizes transformations that need two values.
+> **BiFunction<T,U,R> accepts two inputs and produces one result. It generalizes transformations that need two values.**
 
 ---
 
 ## 1. Architectural Overview & Mental Model
 
-**BiFunction** serves as a foundational component within *Functional Interfaces* in the broader **Functional Java** ecosystem. BiFunction<T,U,R> accepts two inputs and produces one result. It generalizes transformations that need two values.
+BiFunction<T,U,R> accepts two inputs and produces one result. It generalizes transformations that need two values.
 
-At an architectural level, it abstracts underlying complexity to provide deterministic behavior, clear separation of concerns, and stable runtime contracts across distributed or multi-threaded environments.
 
 ## 2. Execution Mechanics & Runtime Flow
 

@@ -1,13 +1,11 @@
-> **Core Definition:**  
-> MongoDB schema validation enforces document structure and value rules using JSON Schema-like validators.
+> **MongoDB schema validation enforces document structure and value rules using JSON Schema-like validators.**
 
 ---
 
 ## 1. Architectural Overview & Mental Model
 
-**Schema validation** serves as a foundational component within *MongoDB* in the broader **NoSQL** ecosystem. MongoDB schema validation enforces document structure and value rules using JSON Schema-like validators.
+MongoDB schema validation enforces document structure and value rules using JSON Schema-like validators.
 
-At an architectural level, it abstracts underlying complexity to provide deterministic behavior, clear separation of concerns, and stable runtime contracts across distributed or multi-threaded environments.
 
 ## 2. Execution Mechanics & Runtime Flow
 

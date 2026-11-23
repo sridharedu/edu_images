@@ -1,13 +1,11 @@
-> **Core Definition:**  
-> Service Level Indicators are measured values that represent service reliability, such as availability or successful-request latency.
+> **Service Level Indicators are measured values that represent service reliability, such as availability or successful-request latency.**
 
 ---
 
 ## 1. Architectural Overview & Mental Model
 
-**SLIs** serves as a foundational component within *Monitoring* in the broader **Observability** ecosystem. Service Level Indicators are measured values that represent service reliability, such as availability or successful-request latency.
+Service Level Indicators are measured values that represent service reliability, such as availability or successful-request latency.
 
-At an architectural level, it abstracts underlying complexity to provide deterministic behavior, clear separation of concerns, and stable runtime contracts across distributed or multi-threaded environments.
 
 ## 2. Execution Mechanics & Runtime Flow
 

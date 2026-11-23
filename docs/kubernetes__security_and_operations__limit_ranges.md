@@ -1,13 +1,11 @@
-> **Core Definition:**  
-> A LimitRange sets default, minimum, and maximum resource requests or limits for namespace workloads.
+> **A LimitRange sets default, minimum, and maximum resource requests or limits for namespace workloads.**
 
 ---
 
 ## 1. Architectural Overview & Mental Model
 
-**Limit ranges** serves as a foundational component within *Security and Operations* in the broader **Kubernetes** ecosystem. A LimitRange sets default, minimum, and maximum resource requests or limits for namespace workloads.
+A LimitRange sets default, minimum, and maximum resource requests or limits for namespace workloads.
 
-At an architectural level, it abstracts underlying complexity to provide deterministic behavior, clear separation of concerns, and stable runtime contracts across distributed or multi-threaded environments.
 
 ## 2. Execution Mechanics & Runtime Flow
 

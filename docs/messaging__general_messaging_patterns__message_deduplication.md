@@ -1,13 +1,11 @@
-> **Core Definition:**  
-> Message deduplication records stable identifiers or uses idempotent writes so repeated deliveries do not repeat business effects.
+> **Message deduplication records stable identifiers or uses idempotent writes so repeated deliveries do not repeat business effects.**
 
 ---
 
 ## 1. Architectural Overview & Mental Model
 
-**Message deduplication** serves as a foundational component within *General Messaging Patterns* in the broader **Messaging** ecosystem. Message deduplication records stable identifiers or uses idempotent writes so repeated deliveries do not repeat business effects.
+Message deduplication records stable identifiers or uses idempotent writes so repeated deliveries do not repeat business effects.
 
-At an architectural level, it abstracts underlying complexity to provide deterministic behavior, clear separation of concerns, and stable runtime contracts across distributed or multi-threaded environments.
 
 ## 2. Execution Mechanics & Runtime Flow
 

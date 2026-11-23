@@ -1,13 +1,11 @@
-> **Core Definition:**  
-> AWS deployment services automate infrastructure provisioning, application delivery, and release workflows. CloudFormation, Elastic Beanstalk, CodePipeline, CodeBuild, and CodeDeploy cover different layers.
+> **AWS deployment services automate infrastructure provisioning, application delivery, and release workflows. CloudFormation, Elastic Beanstalk, CodePipeline, CodeBuild, and CodeDeploy cover different layers.**
 
 ---
 
 ## 1. Architectural Overview & Mental Model
 
-**AWS Deployment and Automation Services** serves as a foundational component within *Original outline* in the broader **Cloud Computing with AWS** ecosystem. AWS deployment services automate infrastructure provisioning, application delivery, and release workflows. CloudFormation, Elastic Beanstalk, CodePipeline, CodeBuild, and CodeDeploy cover different layers.
+AWS deployment services automate infrastructure provisioning, application delivery, and release workflows. CloudFormation, Elastic Beanstalk, CodePipeline, CodeBuild, and CodeDeploy cover different layers.
 
-At an architectural level, it abstracts underlying complexity to provide deterministic behavior, clear separation of concerns, and stable runtime contracts across distributed or multi-threaded environments.
 
 ## 2. Execution Mechanics & Runtime Flow
 

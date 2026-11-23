@@ -1,13 +1,11 @@
-> **Core Definition:**  
-> Late-arriving data reaches the system after its expected event-time window and requires update, correction, or discard policies.
+> **Late-arriving data reaches the system after its expected event-time window and requires update, correction, or discard policies.**
 
 ---
 
 ## 1. Architectural Overview & Mental Model
 
-**Late arriving data** serves as a foundational component within *Data Processing* in the broader **Data Engineering** ecosystem. Late-arriving data reaches the system after its expected event-time window and requires update, correction, or discard policies.
+Late-arriving data reaches the system after its expected event-time window and requires update, correction, or discard policies.
 
-At an architectural level, it abstracts underlying complexity to provide deterministic behavior, clear separation of concerns, and stable runtime contracts across distributed or multi-threaded environments.
 
 ## 2. Execution Mechanics & Runtime Flow
 

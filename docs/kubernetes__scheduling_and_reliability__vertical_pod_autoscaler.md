@@ -1,13 +1,11 @@
-> **Core Definition:**  
-> The Vertical Pod Autoscaler recommends or adjusts Pod CPU and memory requests based on observed usage.
+> **The Vertical Pod Autoscaler recommends or adjusts Pod CPU and memory requests based on observed usage.**
 
 ---
 
 ## 1. Architectural Overview & Mental Model
 
-**Vertical Pod Autoscaler** serves as a foundational component within *Scheduling and Reliability* in the broader **Kubernetes** ecosystem. The Vertical Pod Autoscaler recommends or adjusts Pod CPU and memory requests based on observed usage.
+The Vertical Pod Autoscaler recommends or adjusts Pod CPU and memory requests based on observed usage.
 
-At an architectural level, it abstracts underlying complexity to provide deterministic behavior, clear separation of concerns, and stable runtime contracts across distributed or multi-threaded environments.
 
 ## 2. Execution Mechanics & Runtime Flow
 

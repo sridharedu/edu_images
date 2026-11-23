@@ -1,13 +1,11 @@
-> **Core Definition:**  
-> A payment system prioritizes correctness, idempotency, ledger integrity, authorization, settlement, reconciliation, retries, fraud controls, and auditability.
+> **A payment system prioritizes correctness, idempotency, ledger integrity, authorization, settlement, reconciliation, retries, fraud controls, and auditability.**
 
 ---
 
 ## 1. Architectural Overview & Mental Model
 
-**Design a payment system** serves as a foundational component within *Case Studies* in the broader **System Design** ecosystem. A payment system prioritizes correctness, idempotency, ledger integrity, authorization, settlement, reconciliation, retries, fraud controls, and auditability.
+A payment system prioritizes correctness, idempotency, ledger integrity, authorization, settlement, reconciliation, retries, fraud controls, and auditability.
 
-At an architectural level, it abstracts underlying complexity to provide deterministic behavior, clear separation of concerns, and stable runtime contracts across distributed or multi-threaded environments.
 
 ## 2. Execution Mechanics & Runtime Flow
 

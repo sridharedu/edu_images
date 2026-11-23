@@ -1,13 +1,11 @@
-> **Core Definition:**  
-> A Job runs one or more Pods until a finite task completes successfully.
+> **A Job runs one or more Pods until a finite task completes successfully.**
 
 ---
 
 ## 1. Architectural Overview & Mental Model
 
-**Jobs** serves as a foundational component within *Workloads* in the broader **Kubernetes** ecosystem. A Job runs one or more Pods until a finite task completes successfully.
+A Job runs one or more Pods until a finite task completes successfully.
 
-At an architectural level, it abstracts underlying complexity to provide deterministic behavior, clear separation of concerns, and stable runtime contracts across distributed or multi-threaded environments.
 
 ## 2. Execution Mechanics & Runtime Flow
 

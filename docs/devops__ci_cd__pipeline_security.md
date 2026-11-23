@@ -1,13 +1,11 @@
-> **Core Definition:**  
-> Pipeline security protects credentials, runners, approvals, artifacts, logs, and deployment permissions from tampering or misuse.
+> **Pipeline security protects credentials, runners, approvals, artifacts, logs, and deployment permissions from tampering or misuse.**
 
 ---
 
 ## 1. Architectural Overview & Mental Model
 
-**Pipeline security** serves as a foundational component within *CI/CD* in the broader **DevOps** ecosystem. Pipeline security protects credentials, runners, approvals, artifacts, logs, and deployment permissions from tampering or misuse.
+Pipeline security protects credentials, runners, approvals, artifacts, logs, and deployment permissions from tampering or misuse.
 
-At an architectural level, it abstracts underlying complexity to provide deterministic behavior, clear separation of concerns, and stable runtime contracts across distributed or multi-threaded environments.
 
 ## 2. Execution Mechanics & Runtime Flow
 

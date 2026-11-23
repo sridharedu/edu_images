@@ -1,13 +1,11 @@
-> **Core Definition:**  
-> Maintainable code expresses intent, limits responsibility, avoids hidden side effects, and remains easy to test and change.
+> **Maintainable code expresses intent, limits responsibility, avoids hidden side effects, and remains easy to test and change.**
 
 ---
 
 ## 1. Architectural Overview & Mental Model
 
-**Writing Clean and Maintainable Code** serves as a foundational component within *Original outline* in the broader **Testing & Best Practices** ecosystem. Maintainable code expresses intent, limits responsibility, avoids hidden side effects, and remains easy to test and change.
+Maintainable code expresses intent, limits responsibility, avoids hidden side effects, and remains easy to test and change.
 
-At an architectural level, it abstracts underlying complexity to provide deterministic behavior, clear separation of concerns, and stable runtime contracts across distributed or multi-threaded environments.
 
 ## 2. Execution Mechanics & Runtime Flow
 

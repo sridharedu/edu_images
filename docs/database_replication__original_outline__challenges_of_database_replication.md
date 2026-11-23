@@ -1,13 +1,11 @@
-> **Core Definition:**  
-> Challenges include lag, split brain, conflicts, failover, duplicate events, schema changes, monitoring, and recovery after divergence.
+> **Challenges include lag, split brain, conflicts, failover, duplicate events, schema changes, monitoring, and recovery after divergence.**
 
 ---
 
 ## 1. Architectural Overview & Mental Model
 
-**Challenges of Database Replication** serves as a foundational component within *Original outline* in the broader **Database Replication** ecosystem. Challenges include lag, split brain, conflicts, failover, duplicate events, schema changes, monitoring, and recovery after divergence.
+Challenges include lag, split brain, conflicts, failover, duplicate events, schema changes, monitoring, and recovery after divergence.
 
-At an architectural level, it abstracts underlying complexity to provide deterministic behavior, clear separation of concerns, and stable runtime contracts across distributed or multi-threaded environments.
 
 ## 2. Execution Mechanics & Runtime Flow
 

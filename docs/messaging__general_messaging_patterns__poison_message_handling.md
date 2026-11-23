@@ -1,13 +1,11 @@
-> **Core Definition:**  
-> Poison messages need bounded retries, diagnostic context, dead-letter routing, and an operator-controlled recovery path.
+> **Poison messages need bounded retries, diagnostic context, dead-letter routing, and an operator-controlled recovery path.**
 
 ---
 
 ## 1. Architectural Overview & Mental Model
 
-**Poison message handling** serves as a foundational component within *General Messaging Patterns* in the broader **Messaging** ecosystem. Poison messages need bounded retries, diagnostic context, dead-letter routing, and an operator-controlled recovery path.
+Poison messages need bounded retries, diagnostic context, dead-letter routing, and an operator-controlled recovery path.
 
-At an architectural level, it abstracts underlying complexity to provide deterministic behavior, clear separation of concerns, and stable runtime contracts across distributed or multi-threaded environments.
 
 ## 2. Execution Mechanics & Runtime Flow
 

@@ -1,13 +1,11 @@
-> **Core Definition:**  
-> Command Query Responsibility Segregation separates write models from read models so each can be optimized independently.
+> **Command Query Responsibility Segregation separates write models from read models so each can be optimized independently.**
 
 ---
 
 ## 1. Architectural Overview & Mental Model
 
-**CQRS** serves as a foundational component within *Event-Driven Architecture* in the broader **Microservices** ecosystem. Command Query Responsibility Segregation separates write models from read models so each can be optimized independently.
+Command Query Responsibility Segregation separates write models from read models so each can be optimized independently.
 
-At an architectural level, it abstracts underlying complexity to provide deterministic behavior, clear separation of concerns, and stable runtime contracts across distributed or multi-threaded environments.
 
 ## 2. Execution Mechanics & Runtime Flow
 

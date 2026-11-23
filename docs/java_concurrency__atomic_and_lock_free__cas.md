@@ -1,13 +1,11 @@
-> **Core Definition:**  
-> Compare-and-set atomically updates a value only when it still matches an expected value. It is the foundation of many lock-free algorithms.
+> **Compare-and-set atomically updates a value only when it still matches an expected value. It is the foundation of many lock-free algorithms.**
 
 ---
 
 ## 1. Architectural Overview & Mental Model
 
-**CAS** serves as a foundational component within *Atomic and Lock-Free* in the broader **Java Concurrency** ecosystem. Compare-and-set atomically updates a value only when it still matches an expected value. It is the foundation of many lock-free algorithms.
+Compare-and-set atomically updates a value only when it still matches an expected value. It is the foundation of many lock-free algorithms.
 
-At an architectural level, it abstracts underlying complexity to provide deterministic behavior, clear separation of concerns, and stable runtime contracts across distributed or multi-threaded environments.
 
 ## 2. Execution Mechanics & Runtime Flow
 

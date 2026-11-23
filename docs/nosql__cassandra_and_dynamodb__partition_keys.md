@@ -1,13 +1,11 @@
-> **Core Definition:**  
-> A Cassandra partition key determines the node placement and groups rows that are stored together.
+> **A Cassandra partition key determines the node placement and groups rows that are stored together.**
 
 ---
 
 ## 1. Architectural Overview & Mental Model
 
-**Partition keys** serves as a foundational component within *Cassandra and DynamoDB* in the broader **NoSQL** ecosystem. A Cassandra partition key determines the node placement and groups rows that are stored together.
+A Cassandra partition key determines the node placement and groups rows that are stored together.
 
-At an architectural level, it abstracts underlying complexity to provide deterministic behavior, clear separation of concerns, and stable runtime contracts across distributed or multi-threaded environments.
 
 ## 2. Execution Mechanics & Runtime Flow
 

@@ -1,13 +1,11 @@
-> **Core Definition:**  
-> AWS offers Application Load Balancer for HTTP routing, Network Load Balancer for high-performance TCP/UDP, and Gateway Load Balancer for virtual network appliances.
+> **AWS offers Application Load Balancer for HTTP routing, Network Load Balancer for high-performance TCP/UDP, and Gateway Load Balancer for virtual network appliances.**
 
 ---
 
 ## 1. Architectural Overview & Mental Model
 
-**Types of Load Balancers** serves as a foundational component within *Original outline* in the broader **Cloud Computing with AWS** ecosystem. AWS offers Application Load Balancer for HTTP routing, Network Load Balancer for high-performance TCP/UDP, and Gateway Load Balancer for virtual network appliances.
+AWS offers Application Load Balancer for HTTP routing, Network Load Balancer for high-performance TCP/UDP, and Gateway Load Balancer for virtual network appliances.
 
-At an architectural level, it abstracts underlying complexity to provide deterministic behavior, clear separation of concerns, and stable runtime contracts across distributed or multi-threaded environments.
 
 ## 2. Execution Mechanics & Runtime Flow
 

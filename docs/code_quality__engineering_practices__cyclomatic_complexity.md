@@ -1,13 +1,11 @@
-> **Core Definition:**  
-> Cyclomatic complexity measures the number of independent control-flow paths through a method. Higher values usually indicate harder testing and maintenance.
+> **Cyclomatic complexity measures the number of independent control-flow paths through a method. Higher values usually indicate harder testing and maintenance.**
 
 ---
 
 ## 1. Architectural Overview & Mental Model
 
-**Cyclomatic complexity** serves as a foundational component within *Engineering Practices* in the broader **Code Quality** ecosystem. Cyclomatic complexity measures the number of independent control-flow paths through a method. Higher values usually indicate harder testing and maintenance.
+Cyclomatic complexity measures the number of independent control-flow paths through a method. Higher values usually indicate harder testing and maintenance.
 
-At an architectural level, it abstracts underlying complexity to provide deterministic behavior, clear separation of concerns, and stable runtime contracts across distributed or multi-threaded environments.
 
 ## 2. Execution Mechanics & Runtime Flow
 

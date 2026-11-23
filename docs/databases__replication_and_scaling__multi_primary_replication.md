@@ -1,13 +1,11 @@
-> **Core Definition:**  
-> Multi-primary replication allows writes on multiple nodes and therefore requires conflict detection and resolution.
+> **Multi-primary replication allows writes on multiple nodes and therefore requires conflict detection and resolution.**
 
 ---
 
 ## 1. Architectural Overview & Mental Model
 
-**Multi-primary replication** serves as a foundational component within *Replication and Scaling* in the broader **Databases** ecosystem. Multi-primary replication allows writes on multiple nodes and therefore requires conflict detection and resolution.
+Multi-primary replication allows writes on multiple nodes and therefore requires conflict detection and resolution.
 
-At an architectural level, it abstracts underlying complexity to provide deterministic behavior, clear separation of concerns, and stable runtime contracts across distributed or multi-threaded environments.
 
 ## 2. Execution Mechanics & Runtime Flow
 

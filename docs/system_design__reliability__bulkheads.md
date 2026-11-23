@@ -1,13 +1,11 @@
-> **Core Definition:**  
-> Bulkheads isolate resource pools so failure or saturation in one dependency does not consume all system capacity.
+> **Bulkheads isolate resource pools so failure or saturation in one dependency does not consume all system capacity.**
 
 ---
 
 ## 1. Architectural Overview & Mental Model
 
-**Bulkheads** serves as a foundational component within *Reliability* in the broader **System Design** ecosystem. Bulkheads isolate resource pools so failure or saturation in one dependency does not consume all system capacity.
+Bulkheads isolate resource pools so failure or saturation in one dependency does not consume all system capacity.
 
-At an architectural level, it abstracts underlying complexity to provide deterministic behavior, clear separation of concerns, and stable runtime contracts across distributed or multi-threaded environments.
 
 ## 2. Execution Mechanics & Runtime Flow
 

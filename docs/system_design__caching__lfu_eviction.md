@@ -1,13 +1,11 @@
-> **Core Definition:**  
-> Least Frequently Used eviction removes items with the lowest access frequency, often with recency used as a tie-breaker.
+> **Least Frequently Used eviction removes items with the lowest access frequency, often with recency used as a tie-breaker.**
 
 ---
 
 ## 1. Architectural Overview & Mental Model
 
-**LFU eviction** serves as a foundational component within *Caching* in the broader **System Design** ecosystem. Least Frequently Used eviction removes items with the lowest access frequency, often with recency used as a tie-breaker.
+Least Frequently Used eviction removes items with the lowest access frequency, often with recency used as a tie-breaker.
 
-At an architectural level, it abstracts underlying complexity to provide deterministic behavior, clear separation of concerns, and stable runtime contracts across distributed or multi-threaded environments.
 
 ## 2. Execution Mechanics & Runtime Flow
 

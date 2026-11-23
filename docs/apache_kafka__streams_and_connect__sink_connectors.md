@@ -1,13 +1,11 @@
-> **Core Definition:**  
-> A sink connector consumes Kafka records and writes them to an external destination.
+> **A sink connector consumes Kafka records and writes them to an external destination.**
 
 ---
 
 ## 1. Architectural Overview & Mental Model
 
-**Sink connectors** serves as a foundational component within *Streams and Connect* in the broader **Apache Kafka** ecosystem. A sink connector consumes Kafka records and writes them to an external destination.
+A sink connector consumes Kafka records and writes them to an external destination.
 
-At an architectural level, it abstracts underlying complexity to provide deterministic behavior, clear separation of concerns, and stable runtime contracts across distributed or multi-threaded environments.
 
 ## 2. Execution Mechanics & Runtime Flow
 

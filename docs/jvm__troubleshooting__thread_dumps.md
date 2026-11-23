@@ -1,13 +1,11 @@
-> **Core Definition:**  
-> A thread dump captures all thread stacks and states at one moment. It helps diagnose deadlocks, blocking, high CPU, and thread-pool saturation.
+> **A thread dump captures all thread stacks and states at one moment. It helps diagnose deadlocks, blocking, high CPU, and thread-pool saturation.**
 
 ---
 
 ## 1. Architectural Overview & Mental Model
 
-**Thread dumps** serves as a foundational component within *Troubleshooting* in the broader **JVM** ecosystem. A thread dump captures all thread stacks and states at one moment. It helps diagnose deadlocks, blocking, high CPU, and thread-pool saturation.
+A thread dump captures all thread stacks and states at one moment. It helps diagnose deadlocks, blocking, high CPU, and thread-pool saturation.
 
-At an architectural level, it abstracts underlying complexity to provide deterministic behavior, clear separation of concerns, and stable runtime contracts across distributed or multi-threaded environments.
 
 ## 2. Execution Mechanics & Runtime Flow
 

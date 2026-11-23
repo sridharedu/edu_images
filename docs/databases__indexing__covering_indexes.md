@@ -1,13 +1,11 @@
-> **Core Definition:**  
-> A covering index contains all columns needed by a query, allowing the database to answer it without visiting the base table...
+> **A covering index contains all columns needed by a query, allowing the database to answer it without visiting the base table...**
 
 ---
 
 ## 1. Architectural Overview & Mental Model
 
-**Covering indexes** serves as a foundational component within *Indexing* in the broader **Databases** ecosystem. A covering index contains all columns needed by a query, allowing the database to answer it without visiting the base table...
+A covering index contains all columns needed by a query, allowing the database to answer it without visiting the base table...
 
-At an architectural level, it abstracts underlying complexity to provide deterministic behavior, clear separation of concerns, and stable runtime contracts across distributed or multi-threaded environments.
 
 ## 2. Execution Mechanics & Runtime Flow
 

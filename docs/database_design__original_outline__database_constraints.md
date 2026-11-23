@@ -1,13 +1,11 @@
-> **Core Definition:**  
-> Constraints enforce valid data at the database boundary. Examples include primary keys, foreign keys, unique constraints, checks, and not-null rules.
+> **Constraints enforce valid data at the database boundary. Examples include primary keys, foreign keys, unique constraints, checks, and not-null rules.**
 
 ---
 
 ## 1. Architectural Overview & Mental Model
 
-**Database Constraints** serves as a foundational component within *Original outline* in the broader **Database Design** ecosystem. Constraints enforce valid data at the database boundary. Examples include primary keys, foreign keys, unique constraints, checks, and not-null rules.
+Constraints enforce valid data at the database boundary. Examples include primary keys, foreign keys, unique constraints, checks, and not-null rules.
 
-At an architectural level, it abstracts underlying complexity to provide deterministic behavior, clear separation of concerns, and stable runtime contracts across distributed or multi-threaded environments.
 
 ## 2. Execution Mechanics & Runtime Flow
 

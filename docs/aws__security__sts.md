@@ -1,13 +1,11 @@
-> **Core Definition:**  
-> AWS Security Token Service issues temporary credentials when identities assume roles or use federation.
+> **AWS Security Token Service issues temporary credentials when identities assume roles or use federation.**
 
 ---
 
 ## 1. Architectural Overview & Mental Model
 
-**STS** serves as a foundational component within *Security* in the broader **AWS** ecosystem. AWS Security Token Service issues temporary credentials when identities assume roles or use federation.
+AWS Security Token Service issues temporary credentials when identities assume roles or use federation.
 
-At an architectural level, it abstracts underlying complexity to provide deterministic behavior, clear separation of concerns, and stable runtime contracts across distributed or multi-threaded environments.
 
 ## 2. Execution Mechanics & Runtime Flow
 

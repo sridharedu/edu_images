@@ -1,13 +1,11 @@
-> **Core Definition:**  
-> AWS is a public cloud platform offering compute, storage, networking, databases, security, analytics, and managed application services across global regions.
+> **AWS is a public cloud platform offering compute, storage, networking, databases, security, analytics, and managed application services across global regions.**
 
 ---
 
 ## 1. Architectural Overview & Mental Model
 
-**Introduction to AWS** serves as a foundational component within *Original outline* in the broader **Cloud Computing with AWS** ecosystem. AWS is a public cloud platform offering compute, storage, networking, databases, security, analytics, and managed application services across global regions.
+AWS is a public cloud platform offering compute, storage, networking, databases, security, analytics, and managed application services across global regions.
 
-At an architectural level, it abstracts underlying complexity to provide deterministic behavior, clear separation of concerns, and stable runtime contracts across distributed or multi-threaded environments.
 
 ## 2. Execution Mechanics & Runtime Flow
 

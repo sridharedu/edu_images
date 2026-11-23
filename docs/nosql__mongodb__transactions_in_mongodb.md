@@ -1,13 +1,11 @@
-> **Core Definition:**  
-> MongoDB supports multi-document ACID transactions, though good document modeling should keep most operations within one document.
+> **MongoDB supports multi-document ACID transactions, though good document modeling should keep most operations within one document.**
 
 ---
 
 ## 1. Architectural Overview & Mental Model
 
-**Transactions in MongoDB** serves as a foundational component within *MongoDB* in the broader **NoSQL** ecosystem. MongoDB supports multi-document ACID transactions, though good document modeling should keep most operations within one document.
+MongoDB supports multi-document ACID transactions, though good document modeling should keep most operations within one document.
 
-At an architectural level, it abstracts underlying complexity to provide deterministic behavior, clear separation of concerns, and stable runtime contracts across distributed or multi-threaded environments.
 
 ## 2. Execution Mechanics & Runtime Flow
 

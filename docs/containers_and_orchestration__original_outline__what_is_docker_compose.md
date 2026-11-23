@@ -1,13 +1,11 @@
-> **Core Definition:**  
-> Docker Compose is a tool for describing related containers as one application. A single command can build, start, stop, and recreate the full environment.
+> **Docker Compose is a tool for describing related containers as one application. A single command can build, start, stop, and recreate the full environment.**
 
 ---
 
 ## 1. Architectural Overview & Mental Model
 
-**What is Docker Compose?** serves as a foundational component within *Original outline* in the broader **Containers and Orchestration** ecosystem. Docker Compose is a tool for describing related containers as one application. A single command can build, start, stop, and recreate the full environment.
+Docker Compose is a tool for describing related containers as one application. A single command can build, start, stop, and recreate the full environment.
 
-At an architectural level, it abstracts underlying complexity to provide deterministic behavior, clear separation of concerns, and stable runtime contracts across distributed or multi-threaded environments.
 
 ## 2. Execution Mechanics & Runtime Flow
 

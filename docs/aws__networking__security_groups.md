@@ -1,13 +1,11 @@
-> **Core Definition:**  
-> Security groups are stateful virtual firewalls attached to network interfaces and define allowed inbound and outbound traffic.
+> **Security groups are stateful virtual firewalls attached to network interfaces and define allowed inbound and outbound traffic.**
 
 ---
 
 ## 1. Architectural Overview & Mental Model
 
-**Security groups** serves as a foundational component within *Networking* in the broader **AWS** ecosystem. Security groups are stateful virtual firewalls attached to network interfaces and define allowed inbound and outbound traffic.
+Security groups are stateful virtual firewalls attached to network interfaces and define allowed inbound and outbound traffic.
 
-At an architectural level, it abstracts underlying complexity to provide deterministic behavior, clear separation of concerns, and stable runtime contracts across distributed or multi-threaded environments.
 
 ## 2. Execution Mechanics & Runtime Flow
 

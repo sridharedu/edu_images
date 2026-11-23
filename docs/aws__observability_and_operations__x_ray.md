@@ -1,13 +1,11 @@
-> **Core Definition:**  
-> AWS X-Ray traces requests across distributed services and visualizes latency, dependencies, and errors.
+> **AWS X-Ray traces requests across distributed services and visualizes latency, dependencies, and errors.**
 
 ---
 
 ## 1. Architectural Overview & Mental Model
 
-**X-Ray** serves as a foundational component within *Observability and Operations* in the broader **AWS** ecosystem. AWS X-Ray traces requests across distributed services and visualizes latency, dependencies, and errors.
+AWS X-Ray traces requests across distributed services and visualizes latency, dependencies, and errors.
 
-At an architectural level, it abstracts underlying complexity to provide deterministic behavior, clear separation of concerns, and stable runtime contracts across distributed or multi-threaded environments.
 
 ## 2. Execution Mechanics & Runtime Flow
 

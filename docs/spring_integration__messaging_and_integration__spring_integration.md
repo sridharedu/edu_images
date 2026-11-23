@@ -1,13 +1,11 @@
-> **Core Definition:**  
-> Spring Integration implements enterprise integration patterns such as channels, routers, transformers, filters, adapters, and gateways.
+> **Spring Integration implements enterprise integration patterns such as channels, routers, transformers, filters, adapters, and gateways.**
 
 ---
 
 ## 1. Architectural Overview & Mental Model
 
-**Spring Integration** serves as a foundational component within *Messaging and Integration* in the broader **Spring Integration** ecosystem. Spring Integration implements enterprise integration patterns such as channels, routers, transformers, filters, adapters, and gateways.
+Spring Integration implements enterprise integration patterns such as channels, routers, transformers, filters, adapters, and gateways.
 
-At an architectural level, it abstracts underlying complexity to provide deterministic behavior, clear separation of concerns, and stable runtime contracts across distributed or multi-threaded environments.
 
 ## 2. Execution Mechanics & Runtime Flow
 

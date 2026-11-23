@@ -1,13 +1,11 @@
-> **Core Definition:**  
-> A generic class declares type parameters so the same implementation can work safely with different types, such as Box<T>.
+> **A generic class declares type parameters so the same implementation can work safely with different types, such as Box<T>.**
 
 ---
 
 ## 1. Architectural Overview & Mental Model
 
-**Generic classes** serves as a foundational component within *Generics* in the broader **Core Java** ecosystem. A generic class declares type parameters so the same implementation can work safely with different types, such as Box<T>.
+A generic class declares type parameters so the same implementation can work safely with different types, such as Box<T>.
 
-At an architectural level, it abstracts underlying complexity to provide deterministic behavior, clear separation of concerns, and stable runtime contracts across distributed or multi-threaded environments.
 
 ## 2. Execution Mechanics & Runtime Flow
 

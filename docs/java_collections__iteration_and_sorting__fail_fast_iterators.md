@@ -1,13 +1,11 @@
-> **Core Definition:**  
-> Fail-fast iterators detect structural modification outside the iterator and may throw ConcurrentModificationException. This is a bug detector, not a thread-safety guarantee.
+> **Fail-fast iterators detect structural modification outside the iterator and may throw ConcurrentModificationException. This is a bug detector, not a thread-safety guarantee.**
 
 ---
 
 ## 1. Architectural Overview & Mental Model
 
-**Fail-fast iterators** serves as a foundational component within *Iteration and Sorting* in the broader **Java Collections** ecosystem. Fail-fast iterators detect structural modification outside the iterator and may throw ConcurrentModificationException. This is a bug detector, not a thread-safety guarantee.
+Fail-fast iterators detect structural modification outside the iterator and may throw ConcurrentModificationException. This is a bug detector, not a thread-safety guarantee.
 
-At an architectural level, it abstracts underlying complexity to provide deterministic behavior, clear separation of concerns, and stable runtime contracts across distributed or multi-threaded environments.
 
 ## 2. Execution Mechanics & Runtime Flow
 

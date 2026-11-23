@@ -1,13 +1,11 @@
-> **Core Definition:**  
-> Optimistic locking detects concurrent updates using a version field. Conflicting transactions fail instead of silently overwriting each other.
+> **Optimistic locking detects concurrent updates using a version field. Conflicting transactions fail instead of silently overwriting each other.**
 
 ---
 
 ## 1. Architectural Overview & Mental Model
 
-**Optimistic locking** serves as a foundational component within *Persistence Behavior* in the broader **Spring Data JPA** ecosystem. Optimistic locking detects concurrent updates using a version field. Conflicting transactions fail instead of silently overwriting each other.
+Optimistic locking detects concurrent updates using a version field. Conflicting transactions fail instead of silently overwriting each other.
 
-At an architectural level, it abstracts underlying complexity to provide deterministic behavior, clear separation of concerns, and stable runtime contracts across distributed or multi-threaded environments.
 
 ## 2. Execution Mechanics & Runtime Flow
 

@@ -1,13 +1,11 @@
-> **Core Definition:**  
-> SortedMap keeps keys ordered and supports range views such as headMap, tailMap, and subMap.
+> **SortedMap keeps keys ordered and supports range views such as headMap, tailMap, and subMap.**
 
 ---
 
 ## 1. Architectural Overview & Mental Model
 
-**SortedMap** serves as a foundational component within *Core Interfaces* in the broader **Java Collections** ecosystem. SortedMap keeps keys ordered and supports range views such as headMap, tailMap, and subMap.
+SortedMap keeps keys ordered and supports range views such as headMap, tailMap, and subMap.
 
-At an architectural level, it abstracts underlying complexity to provide deterministic behavior, clear separation of concerns, and stable runtime contracts across distributed or multi-threaded environments.
 
 ## 2. Execution Mechanics & Runtime Flow
 

@@ -1,13 +1,11 @@
-> **Core Definition:**  
-> Spring Cloud Gateway defines routes and reactive filters for forwarding requests. It supports predicates, header transformation, retries, circuit breakers, and custom edge policies.
+> **Spring Cloud Gateway defines routes and reactive filters for forwarding requests. It supports predicates, header transformation, retries, circuit breakers, and custom edge policies.**
 
 ---
 
 ## 1. Architectural Overview & Mental Model
 
-**Implementing API Gateway with Spring Cloud Gateway** serves as a foundational component within *Original outline* in the broader **Microservices Architecture** ecosystem. Spring Cloud Gateway defines routes and reactive filters for forwarding requests. It supports predicates, header transformation, retries, circuit breakers, and custom edge policies.
+Spring Cloud Gateway defines routes and reactive filters for forwarding requests. It supports predicates, header transformation, retries, circuit breakers, and custom edge policies.
 
-At an architectural level, it abstracts underlying complexity to provide deterministic behavior, clear separation of concerns, and stable runtime contracts across distributed or multi-threaded environments.
 
 ## 2. Execution Mechanics & Runtime Flow
 

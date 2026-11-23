@@ -1,13 +1,11 @@
-> **Core Definition:**  
-> Helm installs a chart as a named release. Values can be overridden from files or command-line settings to customize the rendered Kubernetes resources.
+> **Helm installs a chart as a named release. Values can be overridden from files or command-line settings to customize the rendered Kubernetes resources.**
 
 ---
 
 ## 1. Architectural Overview & Mental Model
 
-**Installing and Using Helm** serves as a foundational component within *Original outline* in the broader **Containers and Orchestration** ecosystem. Helm installs a chart as a named release. Values can be overridden from files or command-line settings to customize the rendered Kubernetes resources.
+Helm installs a chart as a named release. Values can be overridden from files or command-line settings to customize the rendered Kubernetes resources.
 
-At an architectural level, it abstracts underlying complexity to provide deterministic behavior, clear separation of concerns, and stable runtime contracts across distributed or multi-threaded environments.
 
 ## 2. Execution Mechanics & Runtime Flow
 

@@ -1,13 +1,11 @@
-> **Core Definition:**  
-> Onion architecture uses concentric layers with the domain model at the center. Outer infrastructure depends on inner abstractions, never the reverse.
+> **Onion architecture uses concentric layers with the domain model at the center. Outer infrastructure depends on inner abstractions, never the reverse.**
 
 ---
 
 ## 1. Architectural Overview & Mental Model
 
-**Onion architecture** serves as a foundational component within *Architecture Styles* in the broader **Software Architecture** ecosystem. Onion architecture uses concentric layers with the domain model at the center. Outer infrastructure depends on inner abstractions, never the reverse.
+Onion architecture uses concentric layers with the domain model at the center. Outer infrastructure depends on inner abstractions, never the reverse.
 
-At an architectural level, it abstracts underlying complexity to provide deterministic behavior, clear separation of concerns, and stable runtime contracts across distributed or multi-threaded environments.
 
 ## 2. Execution Mechanics & Runtime Flow
 

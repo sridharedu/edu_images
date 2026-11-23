@@ -1,13 +1,11 @@
-> **Core Definition:**  
-> Spring Boot is commonly used to build microservices because it provides fast setup, embedded servers, configuration, Actuator, and integration with Spring Cloud and messaging tools.
+> **Spring Boot is commonly used to build microservices because it provides fast setup, embedded servers, configuration, Actuator, and integration with Spring Cloud and messaging tools.**
 
 ---
 
 ## 1. Architectural Overview & Mental Model
 
-**Microservices with Spring Boot** serves as a foundational component within *Original outline* in the broader **Microservices Architecture** ecosystem. Spring Boot is commonly used to build microservices because it provides fast setup, embedded servers, configuration, Actuator, and integration with Spring Cloud and messaging tools.
+Spring Boot is commonly used to build microservices because it provides fast setup, embedded servers, configuration, Actuator, and integration with Spring Cloud and messaging tools.
 
-At an architectural level, it abstracts underlying complexity to provide deterministic behavior, clear separation of concerns, and stable runtime contracts across distributed or multi-threaded environments.
 
 ## 2. Execution Mechanics & Runtime Flow
 

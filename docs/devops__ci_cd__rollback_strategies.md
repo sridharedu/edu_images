@@ -1,13 +1,11 @@
-> **Core Definition:**  
-> Rollback strategies restore a previous application version, configuration, database state, or traffic route after failure.
+> **Rollback strategies restore a previous application version, configuration, database state, or traffic route after failure.**
 
 ---
 
 ## 1. Architectural Overview & Mental Model
 
-**Rollback strategies** serves as a foundational component within *CI/CD* in the broader **DevOps** ecosystem. Rollback strategies restore a previous application version, configuration, database state, or traffic route after failure.
+Rollback strategies restore a previous application version, configuration, database state, or traffic route after failure.
 
-At an architectural level, it abstracts underlying complexity to provide deterministic behavior, clear separation of concerns, and stable runtime contracts across distributed or multi-threaded environments.
 
 ## 2. Execution Mechanics & Runtime Flow
 

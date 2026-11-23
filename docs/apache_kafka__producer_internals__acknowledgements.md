@@ -1,13 +1,11 @@
-> **Core Definition:**  
-> Producer acknowledgements control durability: acks=0 waits for none, acks=1 waits for the leader, and acks=all waits for required in-sync replicas.
+> **Producer acknowledgements control durability: acks=0 waits for none, acks=1 waits for the leader, and acks=all waits for required in-sync replicas.**
 
 ---
 
 ## 1. Architectural Overview & Mental Model
 
-**Acknowledgements** serves as a foundational component within *Producer Internals* in the broader **Apache Kafka** ecosystem. Producer acknowledgements control durability: acks=0 waits for none, acks=1 waits for the leader, and acks=all waits for required in-sync replicas.
+Producer acknowledgements control durability: acks=0 waits for none, acks=1 waits for the leader, and acks=all waits for required in-sync replicas.
 
-At an architectural level, it abstracts underlying complexity to provide deterministic behavior, clear separation of concerns, and stable runtime contracts across distributed or multi-threaded environments.
 
 ## 2. Execution Mechanics & Runtime Flow
 

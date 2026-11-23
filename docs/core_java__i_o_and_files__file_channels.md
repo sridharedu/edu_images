@@ -1,13 +1,11 @@
-> **Core Definition:**  
-> FileChannel supports reading, writing, positioning, locking, transferring, and memory mapping files, often with better control than stream APIs.
+> **FileChannel supports reading, writing, positioning, locking, transferring, and memory mapping files, often with better control than stream APIs.**
 
 ---
 
 ## 1. Architectural Overview & Mental Model
 
-**File channels** serves as a foundational component within *I/O and Files* in the broader **Core Java** ecosystem. FileChannel supports reading, writing, positioning, locking, transferring, and memory mapping files, often with better control than stream APIs.
+FileChannel supports reading, writing, positioning, locking, transferring, and memory mapping files, often with better control than stream APIs.
 
-At an architectural level, it abstracts underlying complexity to provide deterministic behavior, clear separation of concerns, and stable runtime contracts across distributed or multi-threaded environments.
 
 ## 2. Execution Mechanics & Runtime Flow
 

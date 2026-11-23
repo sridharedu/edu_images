@@ -1,13 +1,11 @@
-> **Core Definition:**  
-> Resource requests define the CPU and memory Kubernetes reserves for scheduling a container.
+> **Resource requests define the CPU and memory Kubernetes reserves for scheduling a container.**
 
 ---
 
 ## 1. Architectural Overview & Mental Model
 
-**Resource requests** serves as a foundational component within *Scheduling and Reliability* in the broader **Kubernetes** ecosystem. Resource requests define the CPU and memory Kubernetes reserves for scheduling a container.
+Resource requests define the CPU and memory Kubernetes reserves for scheduling a container.
 
-At an architectural level, it abstracts underlying complexity to provide deterministic behavior, clear separation of concerns, and stable runtime contracts across distributed or multi-threaded environments.
 
 ## 2. Execution Mechanics & Runtime Flow
 

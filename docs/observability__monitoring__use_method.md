@@ -1,13 +1,11 @@
-> **Core Definition:**  
-> The USE method monitors Utilization, Saturation, and Errors for each important resource.
+> **The USE method monitors Utilization, Saturation, and Errors for each important resource.**
 
 ---
 
 ## 1. Architectural Overview & Mental Model
 
-**USE method** serves as a foundational component within *Monitoring* in the broader **Observability** ecosystem. The USE method monitors Utilization, Saturation, and Errors for each important resource.
+The USE method monitors Utilization, Saturation, and Errors for each important resource.
 
-At an architectural level, it abstracts underlying complexity to provide deterministic behavior, clear separation of concerns, and stable runtime contracts across distributed or multi-threaded environments.
 
 ## 2. Execution Mechanics & Runtime Flow
 

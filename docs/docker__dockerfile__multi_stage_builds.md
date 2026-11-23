@@ -1,13 +1,11 @@
-> **Core Definition:**  
-> Multi-stage builds use separate build and runtime stages so the final image contains only necessary artifacts.
+> **Multi-stage builds use separate build and runtime stages so the final image contains only necessary artifacts.**
 
 ---
 
 ## 1. Architectural Overview & Mental Model
 
-**Multi-stage builds** serves as a foundational component within *Dockerfile* in the broader **Docker** ecosystem. Multi-stage builds use separate build and runtime stages so the final image contains only necessary artifacts.
+Multi-stage builds use separate build and runtime stages so the final image contains only necessary artifacts.
 
-At an architectural level, it abstracts underlying complexity to provide deterministic behavior, clear separation of concerns, and stable runtime contracts across distributed or multi-threaded environments.
 
 ## 2. Execution Mechanics & Runtime Flow
 

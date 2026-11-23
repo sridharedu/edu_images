@@ -1,13 +1,11 @@
-> **Core Definition:**  
-> A common table expression names a temporary query result for use within one SQL statement, improving readability and composition.
+> **A common table expression names a temporary query result for use within one SQL statement, improving readability and composition.**
 
 ---
 
 ## 1. Architectural Overview & Mental Model
 
-**Common table expressions** serves as a foundational component within *SQL* in the broader **Databases** ecosystem. A common table expression names a temporary query result for use within one SQL statement, improving readability and composition.
+A common table expression names a temporary query result for use within one SQL statement, improving readability and composition.
 
-At an architectural level, it abstracts underlying complexity to provide deterministic behavior, clear separation of concerns, and stable runtime contracts across distributed or multi-threaded environments.
 
 ## 2. Execution Mechanics & Runtime Flow
 

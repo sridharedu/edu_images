@@ -1,13 +1,11 @@
-> **Core Definition:**  
-> A topic exchange routes using dot-separated patterns with wildcards such as * and #.
+> **A topic exchange routes using dot-separated patterns with wildcards such as * and #.**
 
 ---
 
 ## 1. Architectural Overview & Mental Model
 
-**Topic exchange** serves as a foundational component within *RabbitMQ* in the broader **Messaging** ecosystem. A topic exchange routes using dot-separated patterns with wildcards such as * and #.
+A topic exchange routes using dot-separated patterns with wildcards such as * and #.
 
-At an architectural level, it abstracts underlying complexity to provide deterministic behavior, clear separation of concerns, and stable runtime contracts across distributed or multi-threaded environments.
 
 ## 2. Execution Mechanics & Runtime Flow
 

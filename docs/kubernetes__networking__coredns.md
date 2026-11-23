@@ -1,13 +1,11 @@
-> **Core Definition:**  
-> CoreDNS provides cluster DNS resolution for Services, Pods, and external names.
+> **CoreDNS provides cluster DNS resolution for Services, Pods, and external names.**
 
 ---
 
 ## 1. Architectural Overview & Mental Model
 
-**CoreDNS** serves as a foundational component within *Networking* in the broader **Kubernetes** ecosystem. CoreDNS provides cluster DNS resolution for Services, Pods, and external names.
+CoreDNS provides cluster DNS resolution for Services, Pods, and external names.
 
-At an architectural level, it abstracts underlying complexity to provide deterministic behavior, clear separation of concerns, and stable runtime contracts across distributed or multi-threaded environments.
 
 ## 2. Execution Mechanics & Runtime Flow
 

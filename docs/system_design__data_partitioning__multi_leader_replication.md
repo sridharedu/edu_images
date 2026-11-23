@@ -1,13 +1,11 @@
-> **Core Definition:**  
-> Multi-leader replication allows writes on multiple leaders and therefore requires conflict handling.
+> **Multi-leader replication allows writes on multiple leaders and therefore requires conflict handling.**
 
 ---
 
 ## 1. Architectural Overview & Mental Model
 
-**Multi-leader replication** serves as a foundational component within *Data Partitioning* in the broader **System Design** ecosystem. Multi-leader replication allows writes on multiple leaders and therefore requires conflict handling.
+Multi-leader replication allows writes on multiple leaders and therefore requires conflict handling.
 
-At an architectural level, it abstracts underlying complexity to provide deterministic behavior, clear separation of concerns, and stable runtime contracts across distributed or multi-threaded environments.
 
 ## 2. Execution Mechanics & Runtime Flow
 

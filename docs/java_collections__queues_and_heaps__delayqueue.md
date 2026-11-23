@@ -1,13 +1,11 @@
-> **Core Definition:**  
-> DelayQueue stores Delayed elements and exposes them only after their delay expires. It is useful for scheduling and expiry workflows.
+> **DelayQueue stores Delayed elements and exposes them only after their delay expires. It is useful for scheduling and expiry workflows.**
 
 ---
 
 ## 1. Architectural Overview & Mental Model
 
-**DelayQueue** serves as a foundational component within *Queues and Heaps* in the broader **Java Collections** ecosystem. DelayQueue stores Delayed elements and exposes them only after their delay expires. It is useful for scheduling and expiry workflows.
+DelayQueue stores Delayed elements and exposes them only after their delay expires. It is useful for scheduling and expiry workflows.
 
-At an architectural level, it abstracts underlying complexity to provide deterministic behavior, clear separation of concerns, and stable runtime contracts across distributed or multi-threaded environments.
 
 ## 2. Execution Mechanics & Runtime Flow
 

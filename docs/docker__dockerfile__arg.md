@@ -1,13 +1,11 @@
-> **Core Definition:**  
-> ARG defines build-time variables that are not automatically retained in the runtime environment.
+> **ARG defines build-time variables that are not automatically retained in the runtime environment.**
 
 ---
 
 ## 1. Architectural Overview & Mental Model
 
-**ARG** serves as a foundational component within *Dockerfile* in the broader **Docker** ecosystem. ARG defines build-time variables that are not automatically retained in the runtime environment.
+ARG defines build-time variables that are not automatically retained in the runtime environment.
 
-At an architectural level, it abstracts underlying complexity to provide deterministic behavior, clear separation of concerns, and stable runtime contracts across distributed or multi-threaded environments.
 
 ## 2. Execution Mechanics & Runtime Flow
 

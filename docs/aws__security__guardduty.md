@@ -1,13 +1,11 @@
-> **Core Definition:**  
-> Amazon GuardDuty analyzes AWS logs and activity to detect suspicious behavior and potential account or workload compromise.
+> **Amazon GuardDuty analyzes AWS logs and activity to detect suspicious behavior and potential account or workload compromise.**
 
 ---
 
 ## 1. Architectural Overview & Mental Model
 
-**GuardDuty** serves as a foundational component within *Security* in the broader **AWS** ecosystem. Amazon GuardDuty analyzes AWS logs and activity to detect suspicious behavior and potential account or workload compromise.
+Amazon GuardDuty analyzes AWS logs and activity to detect suspicious behavior and potential account or workload compromise.
 
-At an architectural level, it abstracts underlying complexity to provide deterministic behavior, clear separation of concerns, and stable runtime contracts across distributed or multi-threaded environments.
 
 ## 2. Execution Mechanics & Runtime Flow
 

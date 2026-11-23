@@ -1,13 +1,11 @@
-> **Core Definition:**  
-> A container is an isolated process that shares the host operating-system kernel while using its own filesystem, network, and resource limits.
+> **A container is an isolated process that shares the host operating-system kernel while using its own filesystem, network, and resource limits.**
 
 ---
 
 ## 1. Architectural Overview & Mental Model
 
-**What are Containers?** serves as a foundational component within *Original outline* in the broader **Containers and Orchestration** ecosystem. A container is an isolated process that shares the host operating-system kernel while using its own filesystem, network, and resource limits.
+A container is an isolated process that shares the host operating-system kernel while using its own filesystem, network, and resource limits.
 
-At an architectural level, it abstracts underlying complexity to provide deterministic behavior, clear separation of concerns, and stable runtime contracts across distributed or multi-threaded environments.
 
 ## 2. Execution Mechanics & Runtime Flow
 

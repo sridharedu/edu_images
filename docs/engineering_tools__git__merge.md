@@ -1,13 +1,11 @@
-> **Core Definition:**  
-> Merge combines histories and may create a merge commit when branches have diverged.
+> **Merge combines histories and may create a merge commit when branches have diverged.**
 
 ---
 
 ## 1. Architectural Overview & Mental Model
 
-**Merge** serves as a foundational component within *Git* in the broader **Engineering Tools** ecosystem. Merge combines histories and may create a merge commit when branches have diverged.
+Merge combines histories and may create a merge commit when branches have diverged.
 
-At an architectural level, it abstracts underlying complexity to provide deterministic behavior, clear separation of concerns, and stable runtime contracts across distributed or multi-threaded environments.
 
 ## 2. Execution Mechanics & Runtime Flow
 

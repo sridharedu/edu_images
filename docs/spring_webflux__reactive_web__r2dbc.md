@@ -1,13 +1,11 @@
-> **Core Definition:**  
-> R2DBC provides reactive, non-blocking access to relational databases through drivers designed for asynchronous execution.
+> **R2DBC provides reactive, non-blocking access to relational databases through drivers designed for asynchronous execution.**
 
 ---
 
 ## 1. Architectural Overview & Mental Model
 
-**R2DBC** serves as a foundational component within *Reactive Web* in the broader **Spring WebFlux** ecosystem. R2DBC provides reactive, non-blocking access to relational databases through drivers designed for asynchronous execution.
+R2DBC provides reactive, non-blocking access to relational databases through drivers designed for asynchronous execution.
 
-At an architectural level, it abstracts underlying complexity to provide deterministic behavior, clear separation of concerns, and stable runtime contracts across distributed or multi-threaded environments.
 
 ## 2. Execution Mechanics & Runtime Flow
 

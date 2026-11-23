@@ -1,13 +1,11 @@
-> **Core Definition:**  
-> With client-side discovery, the caller queries a service registry and chooses an instance directly.
+> **With client-side discovery, the caller queries a service registry and chooses an instance directly.**
 
 ---
 
 ## 1. Architectural Overview & Mental Model
 
-**Client-side discovery** serves as a foundational component within *Discovery and Routing* in the broader **Microservices** ecosystem. With client-side discovery, the caller queries a service registry and chooses an instance directly.
+With client-side discovery, the caller queries a service registry and chooses an instance directly.
 
-At an architectural level, it abstracts underlying complexity to provide deterministic behavior, clear separation of concerns, and stable runtime contracts across distributed or multi-threaded environments.
 
 ## 2. Execution Mechanics & Runtime Flow
 

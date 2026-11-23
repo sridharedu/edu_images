@@ -1,13 +1,11 @@
-> **Core Definition:**  
-> Maven phases are lifecycle steps such as validate, compile, test, package, verify, install, and deploy.
+> **Maven phases are lifecycle steps such as validate, compile, test, package, verify, install, and deploy.**
 
 ---
 
 ## 1. Architectural Overview & Mental Model
 
-**Maven phases** serves as a foundational component within *Maven and Gradle* in the broader **Engineering Tools** ecosystem. Maven phases are lifecycle steps such as validate, compile, test, package, verify, install, and deploy.
+Maven phases are lifecycle steps such as validate, compile, test, package, verify, install, and deploy.
 
-At an architectural level, it abstracts underlying complexity to provide deterministic behavior, clear separation of concerns, and stable runtime contracts across distributed or multi-threaded environments.
 
 ## 2. Execution Mechanics & Runtime Flow
 

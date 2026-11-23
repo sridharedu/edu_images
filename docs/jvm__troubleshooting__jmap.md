@@ -1,13 +1,11 @@
-> **Core Definition:**  
-> jmap can request heap information or dumps on supported JVMs, though jcmd is often preferred for modern diagnostics.
+> **jmap can request heap information or dumps on supported JVMs, though jcmd is often preferred for modern diagnostics.**
 
 ---
 
 ## 1. Architectural Overview & Mental Model
 
-**jmap** serves as a foundational component within *Troubleshooting* in the broader **JVM** ecosystem. jmap can request heap information or dumps on supported JVMs, though jcmd is often preferred for modern diagnostics.
+jmap can request heap information or dumps on supported JVMs, though jcmd is often preferred for modern diagnostics.
 
-At an architectural level, it abstracts underlying complexity to provide deterministic behavior, clear separation of concerns, and stable runtime contracts across distributed or multi-threaded environments.
 
 ## 2. Execution Mechanics & Runtime Flow
 

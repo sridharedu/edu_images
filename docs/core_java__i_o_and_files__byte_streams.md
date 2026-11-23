@@ -1,13 +1,11 @@
-> **Core Definition:**  
-> InputStream and OutputStream process raw bytes. They are appropriate for images, archives, network payloads, and other binary data.
+> **InputStream and OutputStream process raw bytes. They are appropriate for images, archives, network payloads, and other binary data.**
 
 ---
 
 ## 1. Architectural Overview & Mental Model
 
-**Byte streams** serves as a foundational component within *I/O and Files* in the broader **Core Java** ecosystem. InputStream and OutputStream process raw bytes. They are appropriate for images, archives, network payloads, and other binary data.
+InputStream and OutputStream process raw bytes. They are appropriate for images, archives, network payloads, and other binary data.
 
-At an architectural level, it abstracts underlying complexity to provide deterministic behavior, clear separation of concerns, and stable runtime contracts across distributed or multi-threaded environments.
 
 ## 2. Execution Mechanics & Runtime Flow
 

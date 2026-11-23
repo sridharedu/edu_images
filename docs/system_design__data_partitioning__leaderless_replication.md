@@ -1,13 +1,11 @@
-> **Core Definition:**  
-> Leaderless replication lets clients write to and read from multiple replicas using quorum-style coordination.
+> **Leaderless replication lets clients write to and read from multiple replicas using quorum-style coordination.**
 
 ---
 
 ## 1. Architectural Overview & Mental Model
 
-**Leaderless replication** serves as a foundational component within *Data Partitioning* in the broader **System Design** ecosystem. Leaderless replication lets clients write to and read from multiple replicas using quorum-style coordination.
+Leaderless replication lets clients write to and read from multiple replicas using quorum-style coordination.
 
-At an architectural level, it abstracts underlying complexity to provide deterministic behavior, clear separation of concerns, and stable runtime contracts across distributed or multi-threaded environments.
 
 ## 2. Execution Mechanics & Runtime Flow
 

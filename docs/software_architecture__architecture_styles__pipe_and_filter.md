@@ -1,13 +1,11 @@
-> **Core Definition:**  
-> Pipe-and-filter architecture processes data through independent transformation stages connected as a pipeline.
+> **Pipe-and-filter architecture processes data through independent transformation stages connected as a pipeline.**
 
 ---
 
 ## 1. Architectural Overview & Mental Model
 
-**Pipe-and-filter** serves as a foundational component within *Architecture Styles* in the broader **Software Architecture** ecosystem. Pipe-and-filter architecture processes data through independent transformation stages connected as a pipeline.
+Pipe-and-filter architecture processes data through independent transformation stages connected as a pipeline.
 
-At an architectural level, it abstracts underlying complexity to provide deterministic behavior, clear separation of concerns, and stable runtime contracts across distributed or multi-threaded environments.
 
 ## 2. Execution Mechanics & Runtime Flow
 

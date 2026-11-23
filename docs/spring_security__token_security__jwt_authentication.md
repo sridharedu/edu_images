@@ -1,13 +1,11 @@
-> **Core Definition:**  
-> JWT authentication validates a signed token, extracts claims, and builds an authenticated security context without server-side session lookup.
+> **JWT authentication validates a signed token, extracts claims, and builds an authenticated security context without server-side session lookup.**
 
 ---
 
 ## 1. Architectural Overview & Mental Model
 
-**JWT authentication** serves as a foundational component within *Token Security* in the broader **Spring Security** ecosystem. JWT authentication validates a signed token, extracts claims, and builds an authenticated security context without server-side session lookup.
+JWT authentication validates a signed token, extracts claims, and builds an authenticated security context without server-side session lookup.
 
-At an architectural level, it abstracts underlying complexity to provide deterministic behavior, clear separation of concerns, and stable runtime contracts across distributed or multi-threaded environments.
 
 ## 2. Execution Mechanics & Runtime Flow
 

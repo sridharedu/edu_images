@@ -1,13 +1,11 @@
-> **Core Definition:**  
-> A hot partition receives disproportionate traffic because of a poor key distribution or popular item, creating a localized bottleneck.
+> **A hot partition receives disproportionate traffic because of a poor key distribution or popular item, creating a localized bottleneck.**
 
 ---
 
 ## 1. Architectural Overview & Mental Model
 
-**Hot partition problem** serves as a foundational component within *Scalability* in the broader **Software Architecture** ecosystem. A hot partition receives disproportionate traffic because of a poor key distribution or popular item, creating a localized bottleneck.
+A hot partition receives disproportionate traffic because of a poor key distribution or popular item, creating a localized bottleneck.
 
-At an architectural level, it abstracts underlying complexity to provide deterministic behavior, clear separation of concerns, and stable runtime contracts across distributed or multi-threaded environments.
 
 ## 2. Execution Mechanics & Runtime Flow
 

@@ -1,13 +1,11 @@
-> **Core Definition:**  
-> A Terraform resource declares an infrastructure object that Terraform should create, read, update, or delete.
+> **A Terraform resource declares an infrastructure object that Terraform should create, read, update, or delete.**
 
 ---
 
 ## 1. Architectural Overview & Mental Model
 
-**Terraform resources** serves as a foundational component within *Terraform* in the broader **Infrastructure as Code** ecosystem. A Terraform resource declares an infrastructure object that Terraform should create, read, update, or delete.
+A Terraform resource declares an infrastructure object that Terraform should create, read, update, or delete.
 
-At an architectural level, it abstracts underlying complexity to provide deterministic behavior, clear separation of concerns, and stable runtime contracts across distributed or multi-threaded environments.
 
 ## 2. Execution Mechanics & Runtime Flow
 

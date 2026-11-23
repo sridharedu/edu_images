@@ -1,13 +1,11 @@
-> **Core Definition:**  
-> SNS fanout publishes one event to multiple independent subscribers, commonly using separate SQS queues for isolation.
+> **SNS fanout publishes one event to multiple independent subscribers, commonly using separate SQS queues for isolation.**
 
 ---
 
 ## 1. Architectural Overview & Mental Model
 
-**SNS fanout** serves as a foundational component within *Messaging and Integration* in the broader **AWS** ecosystem. SNS fanout publishes one event to multiple independent subscribers, commonly using separate SQS queues for isolation.
+SNS fanout publishes one event to multiple independent subscribers, commonly using separate SQS queues for isolation.
 
-At an architectural level, it abstracts underlying complexity to provide deterministic behavior, clear separation of concerns, and stable runtime contracts across distributed or multi-threaded environments.
 
 ## 2. Execution Mechanics & Runtime Flow
 

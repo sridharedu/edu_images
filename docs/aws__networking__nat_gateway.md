@@ -1,13 +1,11 @@
-> **Core Definition:**  
-> A NAT Gateway lets resources in private subnets initiate outbound internet connections without accepting unsolicited inbound internet traffic.
+> **A NAT Gateway lets resources in private subnets initiate outbound internet connections without accepting unsolicited inbound internet traffic.**
 
 ---
 
 ## 1. Architectural Overview & Mental Model
 
-**NAT Gateway** serves as a foundational component within *Networking* in the broader **AWS** ecosystem. A NAT Gateway lets resources in private subnets initiate outbound internet connections without accepting unsolicited inbound internet traffic.
+A NAT Gateway lets resources in private subnets initiate outbound internet connections without accepting unsolicited inbound internet traffic.
 
-At an architectural level, it abstracts underlying complexity to provide deterministic behavior, clear separation of concerns, and stable runtime contracts across distributed or multi-threaded environments.
 
 ## 2. Execution Mechanics & Runtime Flow
 

@@ -1,13 +1,11 @@
-> **Core Definition:**  
-> Integration testing verifies that multiple components work together, such as services, databases, queues, or external APIs.
+> **Integration testing verifies that multiple components work together, such as services, databases, queues, or external APIs.**
 
 ---
 
 ## 1. Architectural Overview & Mental Model
 
-**Integration Testing** serves as a foundational component within *Original outline* in the broader **Testing & Best Practices** ecosystem. Integration testing verifies that multiple components work together, such as services, databases, queues, or external APIs.
+Integration testing verifies that multiple components work together, such as services, databases, queues, or external APIs.
 
-At an architectural level, it abstracts underlying complexity to provide deterministic behavior, clear separation of concerns, and stable runtime contracts across distributed or multi-threaded environments.
 
 ## 2. Execution Mechanics & Runtime Flow
 

@@ -1,13 +1,11 @@
-> **Core Definition:**  
-> Message queues buffer work between producers and consumers, decoupling their availability and processing rates.
+> **Message queues buffer work between producers and consumers, decoupling their availability and processing rates.**
 
 ---
 
 ## 1. Architectural Overview & Mental Model
 
-**Message queues** serves as a foundational component within *Core Building Blocks* in the broader **System Design** ecosystem. Message queues buffer work between producers and consumers, decoupling their availability and processing rates.
+Message queues buffer work between producers and consumers, decoupling their availability and processing rates.
 
-At an architectural level, it abstracts underlying complexity to provide deterministic behavior, clear separation of concerns, and stable runtime contracts across distributed or multi-threaded environments.
 
 ## 2. Execution Mechanics & Runtime Flow
 

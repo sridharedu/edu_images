@@ -1,13 +1,11 @@
-> **Core Definition:**  
-> Proxy stands in for another object to control access, add lazy loading, remote communication, caching, or security.
+> **Proxy stands in for another object to control access, add lazy loading, remote communication, caching, or security.**
 
 ---
 
 ## 1. Architectural Overview & Mental Model
 
-**Proxy** serves as a foundational component within *Structural Patterns* in the broader **Design Patterns** ecosystem. Proxy stands in for another object to control access, add lazy loading, remote communication, caching, or security.
+Proxy stands in for another object to control access, add lazy loading, remote communication, caching, or security.
 
-At an architectural level, it abstracts underlying complexity to provide deterministic behavior, clear separation of concerns, and stable runtime contracts across distributed or multi-threaded environments.
 
 ## 2. Execution Mechanics & Runtime Flow
 

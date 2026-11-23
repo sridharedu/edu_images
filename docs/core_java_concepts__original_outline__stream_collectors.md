@@ -1,13 +1,11 @@
-> **Core Definition:**  
-> Collectors define how stream elements are accumulated into lists, maps, groups, summaries, or custom results. They package supplier, accumulator, combiner, and finishing behavior.
+> **Collectors define how stream elements are accumulated into lists, maps, groups, summaries, or custom results. They package supplier, accumulator, combiner, and finishing behavior.**
 
 ---
 
 ## 1. Architectural Overview & Mental Model
 
-**Stream Collectors** serves as a foundational component within *Original outline* in the broader **Core Java Concepts** ecosystem. Collectors define how stream elements are accumulated into lists, maps, groups, summaries, or custom results. They package supplier, accumulator, combiner, and finishing behavior.
+Collectors define how stream elements are accumulated into lists, maps, groups, summaries, or custom results. They package supplier, accumulator, combiner, and finishing behavior.
 
-At an architectural level, it abstracts underlying complexity to provide deterministic behavior, clear separation of concerns, and stable runtime contracts across distributed or multi-threaded environments.
 
 ## 2. Execution Mechanics & Runtime Flow
 

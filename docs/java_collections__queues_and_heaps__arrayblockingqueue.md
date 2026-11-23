@@ -1,13 +1,11 @@
-> **Core Definition:**  
-> ArrayBlockingQueue is a bounded, array-backed FIFO queue with predictable capacity and optional fairness.
+> **ArrayBlockingQueue is a bounded, array-backed FIFO queue with predictable capacity and optional fairness.**
 
 ---
 
 ## 1. Architectural Overview & Mental Model
 
-**ArrayBlockingQueue** serves as a foundational component within *Queues and Heaps* in the broader **Java Collections** ecosystem. ArrayBlockingQueue is a bounded, array-backed FIFO queue with predictable capacity and optional fairness.
+ArrayBlockingQueue is a bounded, array-backed FIFO queue with predictable capacity and optional fairness.
 
-At an architectural level, it abstracts underlying complexity to provide deterministic behavior, clear separation of concerns, and stable runtime contracts across distributed or multi-threaded environments.
 
 ## 2. Execution Mechanics & Runtime Flow
 

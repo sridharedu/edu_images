@@ -1,13 +1,11 @@
-> **Core Definition:**  
-> EnumMap is a compact and fast map specialized for enum keys. It preserves enum declaration order.
+> **EnumMap is a compact and fast map specialized for enum keys. It preserves enum declaration order.**
 
 ---
 
 ## 1. Architectural Overview & Mental Model
 
-**EnumMap** serves as a foundational component within *Map Implementations* in the broader **Java Collections** ecosystem. EnumMap is a compact and fast map specialized for enum keys. It preserves enum declaration order.
+EnumMap is a compact and fast map specialized for enum keys. It preserves enum declaration order.
 
-At an architectural level, it abstracts underlying complexity to provide deterministic behavior, clear separation of concerns, and stable runtime contracts across distributed or multi-threaded environments.
 
 ## 2. Execution Mechanics & Runtime Flow
 

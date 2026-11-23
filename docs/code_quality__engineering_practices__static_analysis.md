@@ -1,13 +1,11 @@
-> **Core Definition:**  
-> Static analysis examines source or bytecode without executing it to detect bugs, vulnerabilities, style issues, and maintainability risks.
+> **Static analysis examines source or bytecode without executing it to detect bugs, vulnerabilities, style issues, and maintainability risks.**
 
 ---
 
 ## 1. Architectural Overview & Mental Model
 
-**Static analysis** serves as a foundational component within *Engineering Practices* in the broader **Code Quality** ecosystem. Static analysis examines source or bytecode without executing it to detect bugs, vulnerabilities, style issues, and maintainability risks.
+Static analysis examines source or bytecode without executing it to detect bugs, vulnerabilities, style issues, and maintainability risks.
 
-At an architectural level, it abstracts underlying complexity to provide deterministic behavior, clear separation of concerns, and stable runtime contracts across distributed or multi-threaded environments.
 
 ## 2. Execution Mechanics & Runtime Flow
 

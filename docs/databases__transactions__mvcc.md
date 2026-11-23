@@ -1,13 +1,11 @@
-> **Core Definition:**  
-> Multi-Version Concurrency Control keeps multiple row versions so readers can see a consistent snapshot without blocking writers.
+> **Multi-Version Concurrency Control keeps multiple row versions so readers can see a consistent snapshot without blocking writers.**
 
 ---
 
 ## 1. Architectural Overview & Mental Model
 
-**MVCC** serves as a foundational component within *Transactions* in the broader **Databases** ecosystem. Multi-Version Concurrency Control keeps multiple row versions so readers can see a consistent snapshot without blocking writers.
+Multi-Version Concurrency Control keeps multiple row versions so readers can see a consistent snapshot without blocking writers.
 
-At an architectural level, it abstracts underlying complexity to provide deterministic behavior, clear separation of concerns, and stable runtime contracts across distributed or multi-threaded environments.
 
 ## 2. Execution Mechanics & Runtime Flow
 

@@ -1,13 +1,11 @@
-> **Core Definition:**  
-> summarizingInt collects count, sum, minimum, maximum, and average into IntSummaryStatistics.
+> **summarizingInt collects count, sum, minimum, maximum, and average into IntSummaryStatistics.**
 
 ---
 
 ## 1. Architectural Overview & Mental Model
 
-**Collectors.summarizingInt** serves as a foundational component within *Collectors* in the broader **Java Streams** ecosystem. summarizingInt collects count, sum, minimum, maximum, and average into IntSummaryStatistics.
+summarizingInt collects count, sum, minimum, maximum, and average into IntSummaryStatistics.
 
-At an architectural level, it abstracts underlying complexity to provide deterministic behavior, clear separation of concerns, and stable runtime contracts across distributed or multi-threaded environments.
 
 ## 2. Execution Mechanics & Runtime Flow
 

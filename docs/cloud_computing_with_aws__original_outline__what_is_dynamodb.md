@@ -1,13 +1,11 @@
-> **Core Definition:**  
-> DynamoDB is a serverless NoSQL database that automatically handles partitioning, replication, and scaling. Applications query by primary keys or explicitly designed indexes.
+> **DynamoDB is a serverless NoSQL database that automatically handles partitioning, replication, and scaling. Applications query by primary keys or explicitly designed indexes.**
 
 ---
 
 ## 1. Architectural Overview & Mental Model
 
-**What is DynamoDB?** serves as a foundational component within *Original outline* in the broader **Cloud Computing with AWS** ecosystem. DynamoDB is a serverless NoSQL database that automatically handles partitioning, replication, and scaling. Applications query by primary keys or explicitly designed indexes.
+DynamoDB is a serverless NoSQL database that automatically handles partitioning, replication, and scaling. Applications query by primary keys or explicitly designed indexes.
 
-At an architectural level, it abstracts underlying complexity to provide deterministic behavior, clear separation of concerns, and stable runtime contracts across distributed or multi-threaded environments.
 
 ## 2. Execution Mechanics & Runtime Flow
 

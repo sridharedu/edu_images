@@ -1,13 +1,11 @@
-> **Core Definition:**  
-> A direct exchange routes a message to queues whose binding key exactly matches the routing key.
+> **A direct exchange routes a message to queues whose binding key exactly matches the routing key.**
 
 ---
 
 ## 1. Architectural Overview & Mental Model
 
-**Direct exchange** serves as a foundational component within *RabbitMQ* in the broader **Messaging** ecosystem. A direct exchange routes a message to queues whose binding key exactly matches the routing key.
+A direct exchange routes a message to queues whose binding key exactly matches the routing key.
 
-At an architectural level, it abstracts underlying complexity to provide deterministic behavior, clear separation of concerns, and stable runtime contracts across distributed or multi-threaded environments.
 
 ## 2. Execution Mechanics & Runtime Flow
 

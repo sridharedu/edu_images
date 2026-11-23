@@ -1,13 +1,11 @@
-> **Core Definition:**  
-> JUnit annotations such as @Test, @BeforeEach, @AfterEach, @ParameterizedTest, and @Disabled control test lifecycle and execution.
+> **JUnit annotations such as @Test, @BeforeEach, @AfterEach, @ParameterizedTest, and @Disabled control test lifecycle and execution.**
 
 ---
 
 ## 1. Architectural Overview & Mental Model
 
-**JUnit Annotations** serves as a foundational component within *Original outline* in the broader **Testing & Best Practices** ecosystem. JUnit annotations such as @Test, @BeforeEach, @AfterEach, @ParameterizedTest, and @Disabled control test lifecycle and execution.
+JUnit annotations such as @Test, @BeforeEach, @AfterEach, @ParameterizedTest, and @Disabled control test lifecycle and execution.
 
-At an architectural level, it abstracts underlying complexity to provide deterministic behavior, clear separation of concerns, and stable runtime contracts across distributed or multi-threaded environments.
 
 ## 2. Execution Mechanics & Runtime Flow
 

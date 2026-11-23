@@ -1,13 +1,11 @@
-> **Core Definition:**  
-> Port mapping publishes a container port through a host address and port.
+> **Port mapping publishes a container port through a host address and port.**
 
 ---
 
 ## 1. Architectural Overview & Mental Model
 
-**Port mapping** serves as a foundational component within *Runtime and Networking* in the broader **Docker** ecosystem. Port mapping publishes a container port through a host address and port.
+Port mapping publishes a container port through a host address and port.
 
-At an architectural level, it abstracts underlying complexity to provide deterministic behavior, clear separation of concerns, and stable runtime contracts across distributed or multi-threaded environments.
 
 ## 2. Execution Mechanics & Runtime Flow
 

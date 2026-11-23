@@ -1,13 +1,11 @@
-> **Core Definition:**  
-> Hashing transforms data into a fixed-size digest and is designed to be one-way and collision resistant.
+> **Hashing transforms data into a fixed-size digest and is designed to be one-way and collision resistant.**
 
 ---
 
 ## 1. Architectural Overview & Mental Model
 
-**Hashing** serves as a foundational component within *Cryptography* in the broader **Application Security** ecosystem. Hashing transforms data into a fixed-size digest and is designed to be one-way and collision resistant.
+Hashing transforms data into a fixed-size digest and is designed to be one-way and collision resistant.
 
-At an architectural level, it abstracts underlying complexity to provide deterministic behavior, clear separation of concerns, and stable runtime contracts across distributed or multi-threaded environments.
 
 ## 2. Execution Mechanics & Runtime Flow
 

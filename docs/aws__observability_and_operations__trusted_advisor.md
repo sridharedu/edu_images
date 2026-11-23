@@ -1,13 +1,11 @@
-> **Core Definition:**  
-> AWS Trusted Advisor checks selected workloads for cost, performance, security, fault tolerance, and service-limit improvements.
+> **AWS Trusted Advisor checks selected workloads for cost, performance, security, fault tolerance, and service-limit improvements.**
 
 ---
 
 ## 1. Architectural Overview & Mental Model
 
-**Trusted Advisor** serves as a foundational component within *Observability and Operations* in the broader **AWS** ecosystem. AWS Trusted Advisor checks selected workloads for cost, performance, security, fault tolerance, and service-limit improvements.
+AWS Trusted Advisor checks selected workloads for cost, performance, security, fault tolerance, and service-limit improvements.
 
-At an architectural level, it abstracts underlying complexity to provide deterministic behavior, clear separation of concerns, and stable runtime contracts across distributed or multi-threaded environments.
 
 ## 2. Execution Mechanics & Runtime Flow
 

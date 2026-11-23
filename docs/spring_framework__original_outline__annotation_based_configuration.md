@@ -1,13 +1,11 @@
-> **Core Definition:**  
-> Annotation-based AOP uses @Aspect with advice annotations such as @Around and @Before. It is concise, readable, and the standard approach in modern Spring applications.
+> **Annotation-based AOP uses @Aspect with advice annotations such as @Around and @Before. It is concise, readable, and the standard approach in modern Spring applications.**
 
 ---
 
 ## 1. Architectural Overview & Mental Model
 
-**Annotation-based Configuration** serves as a foundational component within *Original outline* in the broader **Spring Framework** ecosystem. Annotation-based AOP uses @Aspect with advice annotations such as @Around and @Before. It is concise, readable, and the standard approach in modern Spring applications.
+Annotation-based AOP uses @Aspect with advice annotations such as @Around and @Before. It is concise, readable, and the standard approach in modern Spring applications.
 
-At an architectural level, it abstracts underlying complexity to provide deterministic behavior, clear separation of concerns, and stable runtime contracts across distributed or multi-threaded environments.
 
 ## 2. Execution Mechanics & Runtime Flow
 

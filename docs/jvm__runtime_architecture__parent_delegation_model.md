@@ -1,13 +1,11 @@
-> **Core Definition:**  
-> Class loaders normally ask their parent to load a class first, preventing duplicate core classes and improving consistency.
+> **Class loaders normally ask their parent to load a class first, preventing duplicate core classes and improving consistency.**
 
 ---
 
 ## 1. Architectural Overview & Mental Model
 
-**Parent delegation model** serves as a foundational component within *Runtime Architecture* in the broader **JVM** ecosystem. Class loaders normally ask their parent to load a class first, preventing duplicate core classes and improving consistency.
+Class loaders normally ask their parent to load a class first, preventing duplicate core classes and improving consistency.
 
-At an architectural level, it abstracts underlying complexity to provide deterministic behavior, clear separation of concerns, and stable runtime contracts across distributed or multi-threaded environments.
 
 ## 2. Execution Mechanics & Runtime Flow
 

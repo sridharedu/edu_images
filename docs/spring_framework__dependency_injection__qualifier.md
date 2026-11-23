@@ -1,13 +1,11 @@
-> **Core Definition:**  
-> @Qualifier narrows dependency resolution when multiple beans share the same type.
+> **@Qualifier narrows dependency resolution when multiple beans share the same type.**
 
 ---
 
 ## 1. Architectural Overview & Mental Model
 
-**Qualifier** serves as a foundational component within *Dependency Injection* in the broader **Spring Framework** ecosystem. @Qualifier narrows dependency resolution when multiple beans share the same type.
+@Qualifier narrows dependency resolution when multiple beans share the same type.
 
-At an architectural level, it abstracts underlying complexity to provide deterministic behavior, clear separation of concerns, and stable runtime contracts across distributed or multi-threaded environments.
 
 ## 2. Execution Mechanics & Runtime Flow
 

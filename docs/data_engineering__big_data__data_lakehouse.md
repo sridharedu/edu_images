@@ -1,13 +1,11 @@
-> **Core Definition:**  
-> A data lakehouse combines low-cost open data-lake storage with warehouse features such as transactions, governance, and SQL performance.
+> **A data lakehouse combines low-cost open data-lake storage with warehouse features such as transactions, governance, and SQL performance.**
 
 ---
 
 ## 1. Architectural Overview & Mental Model
 
-**Data lakehouse** serves as a foundational component within *Big Data* in the broader **Data Engineering** ecosystem. A data lakehouse combines low-cost open data-lake storage with warehouse features such as transactions, governance, and SQL performance.
+A data lakehouse combines low-cost open data-lake storage with warehouse features such as transactions, governance, and SQL performance.
 
-At an architectural level, it abstracts underlying complexity to provide deterministic behavior, clear separation of concerns, and stable runtime contracts across distributed or multi-threaded environments.
 
 ## 2. Execution Mechanics & Runtime Flow
 

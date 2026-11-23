@@ -1,13 +1,11 @@
-> **Core Definition:**  
-> HealthIndicator components report the status of dependencies and contribute to the application's health endpoint.
+> **HealthIndicator components report the status of dependencies and contribute to the application's health endpoint.**
 
 ---
 
 ## 1. Architectural Overview & Mental Model
 
-**Health indicators** serves as a foundational component within *Configuration and Operations* in the broader **Spring Boot** ecosystem. HealthIndicator components report the status of dependencies and contribute to the application's health endpoint.
+HealthIndicator components report the status of dependencies and contribute to the application's health endpoint.
 
-At an architectural level, it abstracts underlying complexity to provide deterministic behavior, clear separation of concerns, and stable runtime contracts across distributed or multi-threaded environments.
 
 ## 2. Execution Mechanics & Runtime Flow
 

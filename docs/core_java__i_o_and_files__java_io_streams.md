@@ -1,13 +1,11 @@
-> **Core Definition:**  
-> Java IO streams model sequential input and output. Byte streams handle binary data, while character streams handle text.
+> **Java IO streams model sequential input and output. Byte streams handle binary data, while character streams handle text.**
 
 ---
 
 ## 1. Architectural Overview & Mental Model
 
-**Java IO streams** serves as a foundational component within *I/O and Files* in the broader **Core Java** ecosystem. Java IO streams model sequential input and output. Byte streams handle binary data, while character streams handle text.
+Java IO streams model sequential input and output. Byte streams handle binary data, while character streams handle text.
 
-At an architectural level, it abstracts underlying complexity to provide deterministic behavior, clear separation of concerns, and stable runtime contracts across distributed or multi-threaded environments.
 
 ## 2. Execution Mechanics & Runtime Flow
 

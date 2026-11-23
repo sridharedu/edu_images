@@ -1,13 +1,11 @@
-> **Core Definition:**  
-> A table defines a structured set of columns, while each row represents one record following that structure.
+> **A table defines a structured set of columns, while each row represents one record following that structure.**
 
 ---
 
 ## 1. Architectural Overview & Mental Model
 
-**Tables and rows** serves as a foundational component within *Relational Fundamentals* in the broader **Databases** ecosystem. A table defines a structured set of columns, while each row represents one record following that structure.
+A table defines a structured set of columns, while each row represents one record following that structure.
 
-At an architectural level, it abstracts underlying complexity to provide deterministic behavior, clear separation of concerns, and stable runtime contracts across distributed or multi-threaded environments.
 
 ## 2. Execution Mechanics & Runtime Flow
 

@@ -1,13 +1,11 @@
-> **Core Definition:**  
-> Join types determine which matching and nonmatching rows appear when combining tables.
+> **Join types determine which matching and nonmatching rows appear when combining tables.**
 
 ---
 
 ## 1. Architectural Overview & Mental Model
 
-**JOIN types** serves as a foundational component within *SQL* in the broader **Databases** ecosystem. Join types determine which matching and nonmatching rows appear when combining tables.
+Join types determine which matching and nonmatching rows appear when combining tables.
 
-At an architectural level, it abstracts underlying complexity to provide deterministic behavior, clear separation of concerns, and stable runtime contracts across distributed or multi-threaded environments.
 
 ## 2. Execution Mechanics & Runtime Flow
 
